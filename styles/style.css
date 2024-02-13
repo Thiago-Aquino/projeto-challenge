@@ -44,6 +44,7 @@ body {
 }
 
 .projeto__entrada__campo {
+    resize: none;
     font-size: 1.5rem;
     font-family: var(--fonte-primaria);
     background-color: var(--cor-terciaria); 
@@ -117,6 +118,7 @@ body {
 } */
 
 .projeto__saida__campo{
+    resize: none;
     font-size: 1.5rem;
     font-family: var(--fonte-primaria);
     display: flex;
