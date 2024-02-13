@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoficador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="assets/bmo-logo.png" alt="imagem logo">
+    </header>
+    <main class="projeto">
+        <section class="projeto__entrada">
+            
+            <textarea class="projeto__entrada__campo"  rows="10" cols="50">Digite seu texto</textarea>
+            <p class="projeto__entrada__aviso">Apenas letras minúsculas e sem acento.</p>
+            <div class="projeto__entrada__comandos">
+                <button onclick="criptografarTexto()" id="btnCriptografar" class="projeto__botoes">Criptografar</button>
+                <button onclick="descriptografarTexto()" id="btnDescriptografar" class="projeto__botoes">Descriptografar</button>
+            </div>    
+        </section>
+        <section class="projeto__saida">
+            <img src="assets/bmo-fragmentado.png" alt="imagem bmo principal">
+            <!-- <h1 class="projeto__saida__titulo">Nenhuma mensagem encontrada</h1> -->
+            <textarea class="projeto__saida__campo">Digite um texto que você deseja criptografar ou descriptografar.</textarea>
+            <div class="projeto__saida__comandos">
+                <button onclick="copiarTexto()" id="btnCopiar" class="projeto__botoes">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">Desenvolvido por Thiago Aquino.</footer>
+    <script src="javascript.js"></script>
+</body>
+</html>
